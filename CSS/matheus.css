@@ -1,0 +1,66 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css */
+
+body{
+    
+    background-color: #8B939C;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("/IMG/fundo-do-matheus.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+h1{
+    font-size: 128px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #88d3e4;
+    margin-right: 1000px;
+
+}
+
+h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+    margin-right: 1000px;
+}
+
+.abelha{
+        background-color: #38405F;
+        color: #fff;
+        padding: 12px 20px;
+        transition: 0.5s;
+        border: solid #fff 4px;
+}
+
+.abelha:hover{
+    background-color: #001940;
+    padding: 12px 100px;
+
+}
+.nome2{
+    background-color: #59546C;
+  transition: 0.5s;
+  padding: 12px 20px;
+  border: solid #fff 4px;
+}
+.nome2:hover{
+    background-color: #001940;
+    padding: 12px 100px;
+    border: solid #fff 4x;
+    
+}

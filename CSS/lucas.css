@@ -1,0 +1,73 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 30px;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+.caixa {
+  width: 850px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 3px 3px rgb(133, 133, 133);
+}
+
+.dados {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.objetivo {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.escola {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.cursos{
+  margin-bottom: 15px;
+}
+
+h1{
+  font-size: 30px;
+  color: #1e90ff;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1e90ff;
+  border-bottom: 3px solid #1e90ff;
+  padding-bottom: 5px;
+}
+
+p{
+  font-size: 20px;
+}
+
+ul {
+  list-style: square inside;
+  margin-top: 15px;
+}
+
+ul li {
+  margin-bottom: 9px;
+}
