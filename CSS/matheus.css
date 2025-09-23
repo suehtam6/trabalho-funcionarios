@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url("../IMG/Carro.jpg");
+    background-image: url("../IMG/Computador.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,14 +21,19 @@ body{
 
 }
 
+.caixa{
+margin-right: 1000px;
+}
+
 h1{
     font-size:60px;
     font-family: sans-serif;
     font-weight: 60px;
-    color: gray;
+    color: peru;
     text-align: center;
-    margin-top: 400px;
-
+    border: solid #fff 4px;
+    border-radius: 100px;
+    margin: 20px;
 }
 
 h2{
@@ -42,7 +47,7 @@ h2{
 
 .dev{
         background-color: transparent;
-        color: red;
+        color: peachpuff;
         padding: 12px 20px;
         transition: 0.5s;
         border: solid #fff 4px;
@@ -52,25 +57,42 @@ h2{
 .dev:hover{
     background-color: transparent;
     padding: 12px 100px;
-
+    color: black;
 }
+
+
 .front{
   background-color: transparent;
   transition: 0.5s;
   padding: 12px 20px;
   border: solid #fff 4px;
   border-radius: 100px;
-  color: red;
+  color: peachpuff;
 }
 
 .front:hover{
     background-color: transparent;
     padding: 12px 100px;
     border: solid #fff 4x;
-    
+    color: black;
 }
 
 h1:hover{
-    color: gold;
+    color: black;
     transition: 1s;
+    border: solid #fff 4px;
+}
+
+.social-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.social-container img{
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+   border-radius: 100px;
+
 }
