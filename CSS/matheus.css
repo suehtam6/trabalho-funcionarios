@@ -29,7 +29,7 @@ h1{
     font-size:60px;
     font-family: sans-serif;
     font-weight: 60px;
-    color: peru;
+    color: orange;
     text-align: center;
     border: solid #fff 4px;
     border-radius: 100px;
@@ -47,7 +47,7 @@ h2{
 
 .dev{
         background-color: transparent;
-        color: peachpuff;
+        color: black;
         padding: 12px 20px;
         transition: 0.5s;
         border: solid #fff 4px;
@@ -57,7 +57,7 @@ h2{
 .dev:hover{
     background-color: transparent;
     padding: 12px 100px;
-    color: black;
+    color: gold;
 }
 
 
@@ -67,14 +67,14 @@ h2{
   padding: 12px 20px;
   border: solid #fff 4px;
   border-radius: 100px;
-  color: peachpuff;
+  color: black;
 }
 
 .front:hover{
     background-color: transparent;
     padding: 12px 100px;
     border: solid #fff 4x;
-    color: black;
+    color: gold;
 }
 
 h1:hover{
@@ -93,6 +93,6 @@ h1:hover{
     margin: 25px;
     width: 150px;
     height: 150px;
-   border-radius: 100px;
+   border-radius: 200px;
 
 }
